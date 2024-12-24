@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugandhan S. - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: #fff;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin: 2rem 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .skills, .projects {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .projects li {
+            margin: 0.5rem 0;
+        }
+        .project-link {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .project-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sugandhan S.</h1>
+        <p>Associate Engineer II | Frontend Specialist</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I’m Sugandhan S., an Associate Engineer II at PowerSchool with over two years of experience in frontend development. I specialize in building intuitive and scalable web applications using React, Redux, JavaScript, and TypeScript. I also have hands-on experience with Microfrontend architecture and enjoy integrating innovative solutions into products.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>React & Redux</li>
+            <li>JavaScript & TypeScript</li>
+            <li>HTML5 & CSS3</li>
+            <li>PHP & Java (Intermediate)</li>
+            <li>Microfrontend Architecture</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul class="projects">
+            <li>
+                <strong>Project Name 1:</strong> <a href="#" class="project-link">Description and GitHub link</a>
+            </li>
+            <li>
+                <strong>Project Name 2:</strong> <a href="#" class="project-link">Description and GitHub link</a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you’d like to collaborate or just say hello, feel free to reach out!</p>
+        <p>Email: <a href="mailto:sugandhan@example.com">sugandhan@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sugandhan" target="_blank">linkedin.com/in/sugandhan</a></p>
+        <p>GitHub: <a href="https://github.com/sugandhan" target="_blank">github.com/sugandhan</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sugandhan S. All rights reserved.</p>
+    </footer>
+</body>
+</html>
